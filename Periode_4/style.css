@@ -1,0 +1,71 @@
+/* Algemene stijlen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sectie Stijlen */
+.section {
+    padding: 2em;
+    text-align: center;
+}
+
+#what-is-crud {
+    background-color: #ecf0f1;
+}
+
+#crud-functions {
+    background-color: #e2e8f0;
+}
+
+#contact {
+    background-color: #ecf0f1;
+}
+
+/* Lijststijl */
+ul {
+    list-style-type: square;
+    padding: 1em;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Formulier Stijlen */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    fon
+}

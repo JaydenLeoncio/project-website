@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EDE7F6; /* Achtergrondkleur */
+        }
+
+        h1 {
+            color: purple;
+        }
+
+        /* Navigatiebalk stijl */
+        nav {
+            background-color: #6A1B9A; /* Dieppaars */
+            padding: 30px; /* Grotere padding voor meer hoogte */
+            text-align: center;
+            font-size: 1.5em; /* Vergrote tekst voor de navigatiebalk */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #F3E5F5; /* Lichtere paarse tint */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #6a0dad;
+        }
+
+        /* Homebutton stijl */
+        .logo {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Homeknop -->
+    <a class="logo" href="index.html">
+        <img src="./img/Homebutton.png" alt="Home" style="width: 40px; height: auto;">
+    </a>
+
+   
+    <nav>
+       
+    </nav>
+
+    <center><h1>Contact Ons</h1></center>
+    <center><p>Email: voorbeeld@gmail.com</p></center>
+    <center><p>Telefoon: (123) 456-7890</p></center>
+
+    <form action="submit_form.php" method="post">
+        <label for="email">Je email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Je bericht:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Verzenden">
+    </form>
+</body>
+</html>
